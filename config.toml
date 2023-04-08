@@ -1,0 +1,36 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Algorand'
+theme = 'PaperMod'
+
+[menu]
+[[menu.main]]
+  identifier = 'Curso'
+  name = 'Acerca del Curso'
+  url = '/posts/curso'
+  weight = -110
+[[menu.main]]
+  identifier = 'avance'
+  name = 'Como avanzar'
+  url = '/posts/avance'
+  weight = -100
+[[menu.main]]
+  identifier = 'fundamentos'
+  name = 'Fundamentos teoricos de blockchain'
+  url = '/posts/fundamentos'
+  weight = -90        
+[[menu.main]]
+  identifier = 'definicion'
+  name = 'Qué es blockchain'
+  url = '/posts/definicion'
+  weight = -80        
+[[menu.main]]
+  identifier = 'protocolos'
+  name = 'Protocolos de consenso'
+  url = '/posts/protocolos'
+  weight = -70        
+[[menu.main]]
+  identifier = 'aplicaciones'
+  name = 'Aplicaciones'
+  url = '/posts/aplicaciones'
+  weight = -60
