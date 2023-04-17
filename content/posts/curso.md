@@ -5,7 +5,7 @@ draft: False
 ---
 
 ## Introducción 
-![Blockchain](/posts/img/blockchain.jpg "Imagen de blockchain")
+![Blockchain](/posts/img/blockchain.jpg#right)
 
 Blockchain es uno de los nuevos campos de la computación que ha avanzado a pasos rápidos y que, como consecuencia, debemos conocer.
 
@@ -21,20 +21,20 @@ Este curso ha sido diseñado para cubrir desde los principios básicos hasta los
 Enero: Lunes y Miércoles de 10.00 AM a 11.30 AM
 
 ## Contenido Temático
-1. Introducción
+1. [Introducción]({{<ref "/posts/curso/introduccion/unidadUno.md">}})
     - Qué es Blockchain 
     - Historia de Blockchain
     - Elementos básicos y estructura de Blockchain
     - Tipos de Blockchain
     - Funcionamiento básico
 
-2. Fundamentos Matemáticos
+2. [Fundamentos matemáticos]({{<ref "posts/curso/fundamentosMatematicos/unidadDos.md">}})
     - Funciones Hash
     - Criptografía Asimétrica
     - Pruebas de Cero Conocimiento
     - Secretos compartidos verificables
 
-3. Sistemas Distribuidos
+3. [Sistemas distribuidos]({{<ref "posts/curso/sistemasDistribuidos/unidadTres.md">}})
     - Qué es un Sistema Distribuido
     - Diferencias entre distribuido y descentralizado
     - Tipo de Sistemas Distribuidos Descentralizados
@@ -46,19 +46,19 @@ Enero: Lunes y Miércoles de 10.00 AM a 11.30 AM
         - Protocolos de consenso por voto (PBFT y RAFT)
         - Protocolos de consenso por prueba (Proof of Work, Proof of Stake y PPoS)
 
-4. Criptografía
+4. [Criptografía]({{<ref "posts/curso/criptografia/unidadCuatro.md">}})
     - Firma Digital
     - Árboles de Merkle
     - Protocolos de Cero Conocimiento
     - Funciones de Retraso Verificables (Verifiable Delay Functions, VDFs)
     - Funciones Aleatorias Verificables (Verifiable Random Function ,VRFs)
 
-5. Diferentes tipos de Blockchain
+5. [Diferentes tipos de Blockchain]({{<ref "posts/curso/tiposBlockchain/unidadCinco.md">}})
     - Bitcoin y Proof of Work
     - Ethereum y los contratos Inteligentes
     - Algorand y Proof of Stake
 
-6. Mejorando Blockchain
+6. [Mejorando Blockchain]({{<ref "posts/curso/mejorandoBlockchain/unidadSeis.md">}})
     - El trilema de Blockchain
     - Blockchains escalables
     - Blockchains concurrentes

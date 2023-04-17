@@ -1,0 +1,9 @@
+{{ $class := .Get "class" }}
+{{ $ref := .Get "href"}}
+{{ $relref:= .Get "relref"}}
+
+{{ with .Get "relref" }}
+  {{ $ref = relref $ . }}
+{{ end }}
+
+<button class= {{$class}}> <a {{ with $ref }}href="{{.}}" {{ end }}> {{.Inner}} </a> </button>

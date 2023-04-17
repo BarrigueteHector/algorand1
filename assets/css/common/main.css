@@ -70,3 +70,81 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+a.boton-enlaceUno{
+    background-color: #83DCF9;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+}
+
+.newButton{
+    background-color: #83DCF9;
+}
+
+.newButtonTwo{
+    background-color: red;
+}
+
+/* Boton para la pagina siguiente */
+.myButton{
+    background-color: #83DCF9;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    position: relative;
+    left: 950px;
+}
+
+/* Boton para la pagina anterior */
+.myButtonTwo{ 
+    background-color: #83DCF9;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    position: absolute;
+}
+
+.myButtonVideo{
+    background-color: #83DCF9;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    position: relative;
+    left: 950px;
+    top: 25px;
+}
+
+.myButtonVideoTwo{
+    background-color: #83DCF9;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    position: absolute;
+    top: 740px;
+}
+
+.myButtonMore{
+    background-color: #83DCF9;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;   
+    position: relative;
+    left: 870px;
+}
+
+/* .boton-enlaceDos{
+    background-color: #83DCF9;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    position: relative;
+    left: 850px;
+} */

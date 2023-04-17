@@ -73,9 +73,9 @@
 
 .post-content a,
 .toc a:hover {
-    box-shadow: 0 1px 0;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    text-decoration: none;
 }
 
 .post-content a code {
@@ -192,6 +192,10 @@
     margin-bottom: 0;
 }
 
+.pos-content imagen-centrada{
+    align-items: center;
+}
+
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
@@ -227,21 +231,27 @@
 
 .post-content iframe {
     max-width: 100%;
+    margin: 0rem;
 }
 
 .post-content img {
-    border-radius: 4px;
-    margin: 1rem 0;
-    float: right;
-    margin-left: 2rem;
-    width: 450px;
-    height: 300px;
+    border-radius: 5px;
+    width: 50%;
+    height: 50%;
     position: relative;
-    bottom: 2rem;
 }
 
 .post-content img[src*="#center"] {
-    margin: 1rem auto;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.post-content img[src*="#right"] {
+    float: right;
+    margin: 1rem 0;
+    margin-left: 2rem;
+    bottom: 2rem;
 }
 
 .post-content figure.align-center {
