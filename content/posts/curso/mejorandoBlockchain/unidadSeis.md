@@ -2,7 +2,10 @@
 title: "Unidad #6: Mejorando blockchain"
 date: 2023-04-16T22:42:45-06:00
 draft: false
+progress: 6
 ---
+
+{{<avance condicion="0" idPagina="5">}}
 
 ## Subtemas de la unidad
 

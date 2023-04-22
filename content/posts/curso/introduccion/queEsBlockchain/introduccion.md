@@ -4,6 +4,10 @@ date: 2023-04-14T18:01:53-06:00
 draft: false
 ---
 
+<!-- {{<avance condicion="0" idPagina="1">}}
+{{<avance condicion="1" idPagina="2">}} -->
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
 
 Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
@@ -12,6 +16,6 @@ Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla l
 
 Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-{{<myShortcode_button class=myButtonTwo relref="\posts\curso\introduccion\unidadUno.md">}} Menu de la unidad
+{{<myShortcode_button class=myButtonTwo id=botonR relref="\posts\curso\introduccion\unidadUno.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="\posts\curso\introduccion\queEsBlockchain\video.md">}} Siguiente
+{{<myShortcode_button class=myButton id=botonS variable=unoVar relref="\posts\curso\introduccion\queEsBlockchain\video.md">}} Siguiente

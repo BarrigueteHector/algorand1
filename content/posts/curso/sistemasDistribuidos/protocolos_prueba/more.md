@@ -4,6 +4,8 @@ date: 2023-04-16T20:32:26-06:00
 draft: false
 ---
 
+{{<avance condicion="1" idPagina="3">}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
 
 ![Imagen random](/posts/curso/img/imagen1.png#center)

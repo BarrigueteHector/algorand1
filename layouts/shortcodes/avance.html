@@ -1,0 +1,44 @@
+{{ $condicion := .Get "condicion" }} 
+<!-- 
+  1 para almacenar
+  0 para verificar
+-->
+{{ $idPagina := .Get "idPagina" }}
+
+<script>
+  var cookies = document.cookie.split(';');
+  var paginasAccedidas = [];
+  
+  if ('{{$condicion}}' == "1"){
+    document.cookie = "paginaAccedida=" + '{{$idPagina}}'; 
+    localStorage.setItem("paginaAccedida", '{{$idPagina}}');
+  
+    if (!cookies.some(cookie => cookie.includes(`paginaAccedida={{ $idPagina }}`))) {
+      paginasAccedidas.push('{{ $idPagina }}');
+    }
+
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].trim();
+      if (cookie.indexOf("paginaAccedida=") == 0) {
+        var pagina = cookie.substring("paginaAccedida=".length, cookie.length);
+        paginasAccedidas.push(pagina);
+      }
+    }
+  }else{
+    // Verificar si el usuario ha accedido a la página requerida
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].trim();
+      if (cookie.indexOf("paginaAccedida=") == 0) {
+        var pagina = cookie.substring("paginaAccedida=".length, cookie.length);
+        paginasAccedidas.push(pagina);
+      }
+    }
+
+    if(!paginasAccedidas.includes('{{$idPagina}}')){
+      if(localStorage.getItem("paginaAccedida") != '{{$idPagina}}'){
+        // Si la página fue accedida previamente, redirigir a la página de autorización
+        window.location.replace("/posts/sinautorizacion/");
+      }
+    }
+  }
+</script>

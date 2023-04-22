@@ -64,6 +64,8 @@ Enero: Lunes y Miércoles de 10.00 AM a 11.30 AM
     - Blockchains concurrentes
     - Blockchains privados
 
+7. [Extra]({{<ref "posts/sinAutorizacion.md">}})
+
 ## Bibliografia 
 - Handbook of Applied Cryptography, Alfred J. Menezes et al. CRC Press, 1997. (disponible gratuitamente en http://www.cacr.math.uwaterloo.ca/hac/
 - Mastering Blockchain: Distributed ledger technology, decentralization, and smart contracts explained, Imran Bashi,Packt Publishing, 2018, 2nd Edition.

@@ -2,7 +2,10 @@
 title: "Unidad #5: Diferentes tipos de Blockchain"
 date: 2023-04-16T22:34:06-06:00
 draft: false
+progress: 5
 ---
+
+{{<avance condicion="0" idPagina="4">}}
 
 ## Subtemas de la unidad
 
