@@ -9,6 +9,6 @@ progress: 5
 
 ## Subtemas de la unidad
 
-1. [Bitcoin y Proof of Work]({{<ref "\posts\curso\tiposBlockchain\bitcoinYProof\introduccion.md">}})
-2. [Ethereum y los contratos Inteligentes]({{<ref "\posts\curso\tiposBlockchain\ethereumYContratos\introduccion.md">}})
-3. [Algorand y Proof of Stake]({{<ref "\posts\curso\tiposBlockchain\algorandYProof\introduccion.md">}})
+1. [Bitcoin y Proof of Work]({{<ref "/posts/curso/tiposBlockchain/bitcoinYProof/introduccion.md">}})
+2. [Ethereum y los contratos Inteligentes]({{<ref "/posts/curso/tiposBlockchain/ethereumYContratos/introduccion.md">}})
+3. [Algorand y Proof of Stake]({{<ref "/posts/curso/tiposBlockchain/algorandYProof/introduccion.md">}})
