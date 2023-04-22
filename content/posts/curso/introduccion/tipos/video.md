@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "NF-kLy44Hls">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="\posts\curso\introduccion\tipos\introduccion.md">}} Anterior
+{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/introduccion/tipos/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="\posts\curso\introduccion\tipos\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo relref="/posts/curso/introduccion/tipos/more.md">}} Siguiente

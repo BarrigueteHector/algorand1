@@ -9,6 +9,6 @@ draft: false
 
 {{<youtube "gG_dA32oH44">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="\posts\curso\introduccion\queEsBlockchain\introduccion.md">}} Anterior
+{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/introduccion/queEsBlockchain/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo id=botonS relref="\posts\curso\introduccion\queEsBlockchain\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo id=botonS relref="/posts/curso/introduccion/queEsBlockchain/more.md">}} Siguiente
