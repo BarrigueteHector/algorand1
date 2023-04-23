@@ -12,6 +12,6 @@ Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla l
 
 Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-{{<myShortcode_button class=myButtonTwo relref="\posts\curso\sistemasDistribuidos\unidadTres.md">}} Menu de la unidad
+{{<myShortcode_button class=myButtonTwo relref="/posts/curso/sistemasDistribuidos/unidadTres.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="\posts\curso\sistemasDistribuidos\tipo_fallosBizantinos\video.md">}} Siguiente
+{{<myShortcode_button class=myButton relref="/posts/curso/sistemasDistribuidos/tipo_fallosBizantinos/video.md">}} Siguiente

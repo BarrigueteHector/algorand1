@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "fIx6Xg0n9L4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="\posts\curso\criptografia\vdfs\introduccion.md">}} Anterior
+{{<myShortcode_button class=myButtonVideoTwo relref="/posts7curso/criptografia/vdfs/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="\posts\curso\criptografia\vdfs\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo relref="/posts/curso/criptografia/vdfs/more.md">}} Siguiente

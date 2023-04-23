@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "1xcSDYy3Dl4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="\posts\curso\sistemasDistribuidos\protocolos_problema\introduccion.md">}} Anterior
+{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/sistemasDistribuidos/protocolos_problema/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="\posts\curso\sistemasDistribuidos\protocolos_problema\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo relref="/posts/curso/sistemasDistribuidos/protocolos_problema/more.md">}} Siguiente

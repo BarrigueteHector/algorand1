@@ -7,6 +7,6 @@ draft: false
 
 {{<youtube "fIx6Xg0n9L4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="\posts\curso\criptografia\firmaDigital\introduccion.md">}} Anterior
+{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/criptografia/firmaDigital/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="\posts\curso\criptografia\firmaDigital\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo relref="/posts/curso/criptografia/firmaDigital/more.md">}} Siguiente
