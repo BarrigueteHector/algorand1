@@ -8,4 +8,4 @@ draft: false
 
 {{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/mejorandoBlockchain/trilema/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/mejorandoBlockchain/trilema\more.md">}} Siguiente
+{{<myShortcode_button class=myButtonVideo relref="/posts/curso/mejorandoBlockchain/trilema/more.md">}} Siguiente
