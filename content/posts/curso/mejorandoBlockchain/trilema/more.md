@@ -20,4 +20,4 @@ Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo con
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/mejorandoBlockchain/trilema/video.md">}} Anterior
 
-{{<myShortcode_button class=myButtonMore relref="/posts/curso/mejorandoBlockchain/escalables/introduccion.md">}} Siguiente subtema
+{{<myShortcode_button class=myButton relref="/posts/curso/mejorandoBlockchain/escalables/introduccion.md">}} Siguiente subtema

@@ -20,4 +20,4 @@ Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo con
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/fundamentosMatematicos/pruebasCeroConocimiento/video.md">}} Anterior
 
-{{<myShortcode_button class=myButtonMore relref="/posts/curso/fundamentosMatematicos/secretosCompartidosVerificables/introduccion.md">}} Siguiente subtema
+{{<myShortcode_button class=myButton relref="/posts/curso/fundamentosMatematicos/secretosCompartidosVerificables/introduccion.md">}} Siguiente subtema

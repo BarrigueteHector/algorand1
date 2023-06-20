@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
+    max-width: calc(var(--nav-width) + var(--gap) * 8);
     margin-inline-start: auto;
     margin-inline-end: auto;
     line-height: var(--header-height);
@@ -14,6 +14,7 @@
 
 .nav a {
     display: block;
+    margin-right: 30px;
 }
 
 .logo,

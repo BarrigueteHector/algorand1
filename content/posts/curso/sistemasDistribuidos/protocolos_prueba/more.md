@@ -22,4 +22,4 @@ Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo con
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/sistemasDistribuidos/protocolos_prueba/video.md">}} Anterior
 
-{{<myShortcode_button class=myButtonMore relref="/posts/curso/criptografia/unidadCuatro.md">}} Siguiente subtema
+{{<myShortcode_button class=myButton relref="/posts/curso/criptografia/unidadCuatro.md">}} Siguiente subtema

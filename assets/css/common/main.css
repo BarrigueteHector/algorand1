@@ -4,7 +4,7 @@
     /* max-width: calc(var(--main-width) + var(--gap) * 2); */
     width: 100%;
     margin: auto;
-    padding: 7px 400px 1px 450px;
+    padding: 7px 200px 40px 200px;
     text-align: justify;
     background-color: #F0F3F4;
     color: black;
@@ -95,8 +95,8 @@ a.boton-enlaceUno{
     border-radius: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;   
+    float: right; 
     position: relative;
-    left: 950px;
 }
 
 /* Boton para la pagina anterior */
@@ -109,17 +109,18 @@ a.boton-enlaceUno{
     position: absolute;
 }
 
+/* Pagina siguiete */
 .myButtonVideo{
     background-color: #83DCF9;
     padding: 0.5rem;
     border-radius: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;   
+    float: right;
     position: relative;
-    left: 950px;
-    top: 25px;
 }
 
+/* Pagina anterior */
 .myButtonVideoTwo{
     background-color: #83DCF9;
     padding: 0.5rem;
@@ -127,7 +128,6 @@ a.boton-enlaceUno{
     padding-left: 1rem;
     padding-right: 1rem;   
     position: absolute;
-    top: 740px;
 }
 
 .myButtonMore{
@@ -139,6 +139,27 @@ a.boton-enlaceUno{
     position: relative;
     left: 870px;
 }
+
+.video_yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.video_yt iframe{
+    width: 1000px;
+    height: 600px;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1200px) {
+    .main {
+        padding: 7px 150px 40px 150px;
+    }
+}
+
+
 
 /* .boton-enlaceDos{
     background-color: #83DCF9;
