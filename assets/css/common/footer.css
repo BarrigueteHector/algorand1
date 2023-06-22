@@ -7,6 +7,8 @@
 .footer {
     /* max-width: calc(var(--main-width) + var(--gap) * 2); */
     background: var(--entry);
+    bottom: 0;
+    left: 0;
     width: 100%;
     min-height: calc(1vh - var(--header-height) - var(--footer-height));
     margin: auto;
@@ -60,4 +62,11 @@
 .top-link:focus,
 #theme-toggle:focus {
     outline: 0;
+}
+
+/* Responsive smartphone */
+@media screen and (max-width: 700px) {
+    .footer {
+        font-size: 50%;
+    }
 }

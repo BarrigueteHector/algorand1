@@ -6,6 +6,8 @@ draft: false
 
 Blockchain es una cadena de registros distribuidos y descentralizados unidos unos con otros que incluyen la firma digital de su creador. Una vez que estos registros son guardados no pueden ser alterados, ni en contenido ni en orden. Esto hace a blockchain un registro inmutable y de sólo agregación.
 
+{{<salto>}}
+
 **Blockchain surge como respuesta a ...**
 
 - _Confianza_
