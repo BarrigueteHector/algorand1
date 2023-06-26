@@ -4,9 +4,9 @@ date: 2023-04-16T18:55:17-06:00
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
+- **Hashing messages**
 
-![Imagen random](/posts/curso/img/imagen1.png#center)
+![Imagen hashing messages](/posts/curso/img/fundamentos_funcionesHash/hashing_messages.png#center)
 
 Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
 
