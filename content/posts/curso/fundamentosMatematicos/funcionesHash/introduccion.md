@@ -6,8 +6,6 @@ draft: false
 
 Una función hash es cualquier función que se puede utilizar para asignar información digital de cualquier longitud a datos digitales de tamaño fijo. Los valores devueltos por una función hash se llaman valores hash, códigos hash, sumas hash o simplemente hashes.
 
-{{<salto>}}
-
 Las funciones hash se pueden utilizar para:
 
 - Sumas de verificación (checksums)
@@ -31,11 +29,9 @@ En criptografía, las funciones hash se utilizan para:
 - Proporcionar integridad de los datos transmitidos
 - Proporcionar autenticación del mensaje
 
-{{<salto>}}
+Por una función hash generalmente nos referimos a una función _H_ que asigna entradas en un conjunto grande _M_ a salidas cortas en _T_.
 
-Por una función hash generalmente nos referimos a una función H que asigna entradas en un conjunto grande M a salidas cortas en T.
-
-Los elementos en T a menudo se llaman resúmenes de mensaje o simplemente resúmenes.
+Los elementos en _T_ a menudo se llaman resúmenes de mensaje o simplemente resúmenes.
 
 {{<salto>}}
 
@@ -43,14 +39,15 @@ Los elementos en T a menudo se llaman resúmenes de mensaje o simplemente resúm
 
 Una función hash sin clave es una función computable de manera eficiente cuya descripción es completamente pública. No hay claves secretas y cualquiera puede evaluar la función.
 
-Sea H una función hash sin clave desde un espacio de mensajes grande M hacia un espacio de resúmenes pequeño T.
+Sea _H_ una función hash sin clave desde un espacio de mensajes grande _M_ hacia un espacio de resúmenes pequeño _T_.
 
-Decimos que dos mensajes m0, m1 ∈ M son una colisión para la función H si
-H(m0) = H(m1) y m0 ≠ m1
+Decimos que dos mensajes _m{{<subindice "0">}}_ , _m{{<subindice "1">}} ∈ M_ son una colisión para la función _H_ si
 
-Informalmente, decimos que la función H es resistente a colisiones si encontrar una colisión para H es difícil.
+_H(m{{<subindice "0">}}) = H(m{{<subindice "1">}})_ y _m{{<subindice "0">}} ≠ m{{<subindice "1">}}_
 
-Dado que el espacio de resúmenes T es mucho más pequeño que M, sabemos que existen muchas colisiones de este tipo. Sin embargo, si H es resistente a colisiones, encontrar en realidad un par m0, m1 que colisione debería ser difícil.
+Informalmente, decimos que la función H es resistente a colisiones si encontrar una colisión para _H_ es difícil.
+
+Dado que el espacio de resúmenes _T_ es mucho más pequeño que _M_, sabemos que existen muchas colisiones de este tipo. Sin embargo, si _H_ es resistente a colisiones, encontrar en realidad un par _m{{<subindice "0">}}_ , _m{{<subindice "1">}}_ que colisione debería ser difícil.
 
 {{<salto>}}
 
@@ -67,6 +64,8 @@ Un buen algoritmo hash debe:
 - El resultado del hash no debe revelar ninguna información sobre la entrada.
 - Debe ser imposible producir un hash específico.
 - Debe ser imposible encontrar dos mensajes diferentes que produzcan el mismo resultado de hash.
+
+![Imagen hashing messages](/posts/curso/img/fundamentos_funcionesHash/hashing_messages.png#center)
 
 {{<salto>}}
 
@@ -92,9 +91,9 @@ La función hash criptográfica ideal tiene cuatro propiedades principales.
 
 No existe una función hash perfecta, pero al menos se deben cumplir las siguientes propiedades:
 
-1. Resistencia a la preimagen. Dado un valor hash h, debería ser difícil encontrar cualquier mensaje m tal que h = hash(m). Este concepto está relacionado con el de una función unidireccional.
-2. Resistencia a la segunda preimagen. Dado un valor de entrada m1, debería ser difícil encontrar una entrada diferente m2 tal que hash(m1) = hash(m2).
-3. Resistencia a colisiones. Debería ser difícil encontrar dos mensajes diferentes m1 y m2 tal que hash(m1) = hash(m2). A esta pareja se le llama colisión criptográfica de hash.
+1. Resistencia a la preimagen. Dado un valor hash _h_, debería ser difícil encontrar cualquier mensaje _m_ tal que _h = hash(m)_. Este concepto está relacionado con el de una función unidireccional.
+2. Resistencia a la segunda preimagen. Dado un valor de entrada _m{{<subindice "1">}}_, debería ser difícil encontrar una entrada diferente _m{{<subindice "2">}}_ tal que _hash(m{{<subindice "1">}}) = hash(m{{<subindice "2">}})_.
+3. Resistencia a colisiones. Debería ser difícil encontrar dos mensajes diferentes _m{{<subindice "1">}}_ y _m{{<subindice "1">}}_ tal que _hash(m{{<subindice "1">}}) = hash(m{{<subindice "2">}})_. A esta pareja se le llama colisión criptográfica de hash.
 
 {{<salto>}}
 
@@ -107,15 +106,15 @@ No existe una función hash perfecta, pero al menos se deben cumplir las siguien
 
 **Ataques de cumpleaños en funciones hash resistentes a colisiones**
 
-- Considera una función hash H que produce resúmenes de longitud l-bit para algún valor l pequeño.
-- Al aplicar la función hash a 2l + 1 mensajes distintos, el atacante encontrará dos mensajes que generan el mismo resumen y, por lo tanto, romperá la resistencia a colisiones de H.
+- Considera una función hash _H_ que produce resúmenes de longitud _l_-bit para algún valor _l_ pequeño.
+- Al aplicar la función hash a _2{{<exponente "l">}} + 1_ mensajes distintos, el atacante encontrará dos mensajes que generan el mismo resumen y, por lo tanto, romperá la resistencia a colisiones de _H_.
 - Este ataque de fuerza bruta romperá la resistencia a colisiones de cualquier función hash.
-- Las funciones hash que producen resúmenes de 16 bits no pueden ser resistentes a colisiones: siempre se puede encontrar una colisión utilizando solo 216 + 1 = 65537 evaluaciones de la función hash.
+- Las funciones hash que producen resúmenes de 16 bits no pueden ser resistentes a colisiones: siempre se puede encontrar una colisión utilizando solo _2{{<exponente "16">}} + 1 = 65537_ evaluaciones de la función hash.
 - Se puede construir un ataque utilizando la paradoja del cumpleaños.
-- Sea H una función hash definida sobre (M, T) y establezcamos N := |T|.
-- Para funciones hash estándar, N es bastante grande, por ejemplo, N = 2256 para SHA256.
+- Sea _H_ una función hash definida sobre _(M, T)_ y establezcamos _N := |T|_.
+- Para funciones hash estándar, _N_ es bastante grande, por ejemplo, _N = 2{{<exponente "256">}}_ para SHA256.
 - Suponemos que el tamaño de M es al menos 100N. Esto significa básicamente que los mensajes que se están hasheando son ligeramente más largos que el resumen de salida.
-- Describimos un buscador de colisiones general que encuentra colisiones para H después de 𝑂(𝑁) evaluaciones de H en promedio. En comparación, el ataque de fuerza bruta anterior requería 𝑂(𝑁) evaluaciones. Este buscador de colisiones más eficiente nos obliga a usar resúmenes mucho más grandes.
+- Describimos un buscador de colisiones general que encuentra colisiones para _H_ después de _O(√N)_ evaluaciones de _H_ en promedio. En comparación, el ataque de fuerza bruta anterior requería _O(N)_ evaluaciones. Este buscador de colisiones más eficiente nos obliga a usar resúmenes mucho más grandes.
 
 {{<salto>}}
 
