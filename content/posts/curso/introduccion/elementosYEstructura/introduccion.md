@@ -17,12 +17,22 @@ draft: false
 
     Si la tercera entidad de confianza es corrompida la integridad del sistema no puede ser garantizada.
 
+{{<salto>}}
+
 **Que no es**
 - No es seguridad
 - No es criptomoneda
 - No es solución mágica
 - No reemplaza sistemas centralizados
 - No repara sistemas rotos
+
+{{<salto>}}
+
+**Propiedades**
+
+![Imagen propiedades](/posts/curso/img/unidad1/propiedades.webp)
+
+{{<salto>}}
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/introduccion/unidadUno.md">}} Menu de la unidad
 

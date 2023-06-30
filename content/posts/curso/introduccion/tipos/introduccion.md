@@ -16,6 +16,8 @@ draft: false
 
     En un blockchain permisionado se requiere de autenticación. Esto hace que sea posible conocer la identidad de los participantes. No estan totalmente descentralizados, solo algunos mantienen el blokchain.
 
+{{<salto>}}
+
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/introduccion/unidadUno.md">}} Menu de la unidad
 
 {{<myShortcode_button class=myButton relref="/posts/curso/introduccion/tipos/video.md">}} Siguiente

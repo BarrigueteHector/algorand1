@@ -4,13 +4,61 @@ date: 2023-04-16T18:56:57-06:00
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
+**Esquema de compartición de secretos**
 
-Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
+Un esquema de compartición de secretos es verificable si se incluye información auxiliar que permite a los jugadores verificar que sus partes sean coherentes.
 
-Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla ligula eleifend. Mauris vehicula interdum eros sit amet molestie. Vestibulum sed ornare quam. Mauris nisi tortor, accumsan in dui dignissim, lacinia ullamcorper justo. Sed a posuere dui. Sed cursus scelerisque est ut dapibus. Vestibulum finibus vitae tellus sit amet commodo. Vestibulum in felis commodo, eleifend risus a, bibendum leo. Integer eget justo at felis eleifend aliquam id nec orci. Nam tristique consequat magna id suscipit. Phasellus ex magna, volutpat vitae lacus tincidunt, feugiat euismod ex. Aenean efficitur, orci vel scelerisque fermentum, nisl nisi cursus neque, tempor congue felis odio sit amet erat. In sem urna, luctus vulputate pretium et, malesuada eget sem. Donec blandit ornare lectus, sit amet rutrum nulla bibendum non. Praesent consequat vel leo vel pulvinar.
+Se aseguran de que, incluso si el distribuidor es malicioso, haya un secreto bien definido que los jugadores puedan reconstruir más tarde.
 
-Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+El concepto de compartición de secretos verificable (VSS, por sus siglas en inglés) fue introducido por primera vez en 1985 por Benny Chor, Shafi Goldwasser, Silvio Micali y Baruch Awerbuch.
+
+En un protocolo de VSS, un jugador distinguido que desea compartir el secreto se conoce como el distribuidor. El protocolo consta de dos fases:
+1. Compartición de secretos: Inicialmente, el distribuidor posee el secreto como entrada y cada jugador tiene una entrada aleatoria independiente. Esta fase puede constar de varias rondas. En cada ronda, cada jugador puede enviar mensajes de forma privada a otros jugadores y también puede difundir un mensaje. Cada mensaje enviado o difundido por un jugador se determina según su entrada, su entrada aleatoria y los mensajes recibidos de otros jugadores en rondas anteriores.
+2. Reconstrucción: En esta fase, cada jugador proporciona su vista completa de la fase de compartición y se aplica una función de reconstrucción que se toma como salida del protocolo.
+
+{{<salto>}}
+
+**Compartición de secretos de Shamir (SSS)**
+
+Adi Shamir formuló el esquema en 1979.
+
+SSS se utiliza para asegurar un secreto en forma distribuida, principalmente para proteger claves de cifrado.
+
+El secreto se divide en múltiples partes, las cuales individualmente no revelan ninguna información sobre el secreto.
+
+Para reconstruir un secreto asegurado por SSS, se necesita un número de partes, llamado umbral.
+
+No se puede obtener información sobre el secreto a partir de un número de partes inferior al umbral (una propiedad llamada secreto perfecto).
+
+El esquema aprovecha el teorema de interpolación de Lagrange, específicamente que k puntos en el polinomio determinan de manera única un polinomio de grado menor o igual a k-1.
+    
+- 2 puntos son suficientes para definir una línea, 3 puntos son suficientes para definir una parábola, 4 puntos para definir una curva cúbica, y así sucesivamente.
+
+{{<salto>}}
+
+**Ejemplo**
+
+Una empresa necesita asegurar su bóveda. Si una sola persona conoce el código de la bóveda, el código podría perderse o no estar disponible cuando sea necesario abrir la bóveda. Si varias personas conocen el código, es posible que no confíen entre sí para actuar siempre de manera honesta.
+
+SSS se puede utilizar en esta situación para generar partes del código de la bóveda que se distribuyen a personas autorizadas en la empresa.
+
+Se puede seleccionar el umbral mínimo y el número de partes asignadas a cada individuo de manera que la bóveda solo sea accesible por personas autorizadas (o grupos de personas autorizadas). Si se presentan menos partes que el umbral, la bóveda no se puede abrir.
+
+Si el total de partes correctas no cumple con el umbral mínimo, la bóveda permanece cerrada.
+
+{{<salto>}}
+
+**Aplicaciones**
+
+La compartición de secretos de Shamir se utiliza, por ejemplo, para:
+
+Compartir una clave para descifrar la clave raíz de un gestor de contraseñas.
+
+Recuperar una clave de usuario para acceder a correos electrónicos cifrados.
+
+Compartir la frase de contraseña utilizada para recrear un secreto maestro, que a su vez se utiliza para acceder a una billetera de criptomonedas.
+
+{{<salto>}}
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/fundamentosMatematicos/unidadDos.md">}} Menu de la unidad
 

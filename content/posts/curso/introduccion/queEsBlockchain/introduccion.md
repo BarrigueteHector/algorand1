@@ -18,6 +18,8 @@ Blockchain es una cadena de registros distribuidos y descentralizados unidos uno
 - _Integridad_
     - Si la tercera parte de confianza es corrompida la integridad del sistemas ya no puede ser garantizada.
 
+{{<salto>}}
+
 {{<myShortcode_button class=myButtonTwo id=botonR relref="/posts/curso/introduccion/unidadUno.md">}} Menu de la unidad
 
 {{<myShortcode_button class=myButton id=botonS variable=unoVar relref="/posts/curso/introduccion/queEsBlockchain/video.md">}} Siguiente

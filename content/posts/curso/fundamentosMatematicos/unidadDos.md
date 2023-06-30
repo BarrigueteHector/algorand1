@@ -13,3 +13,13 @@ progress: 2
 2. [Criptografía asimétrica]({{<ref "/posts/curso/fundamentosMatematicos/criptografiaAsimetrica/introduccion.md">}})
 3. [Pruebas de cero conocimiento]({{<ref "/posts/curso/fundamentosMatematicos/pruebasCeroConocimiento/introduccion.md">}})
 4. [Secretros compartidos verificables]({{<ref "/posts/curso/fundamentosMatematicos/secretosCompartidosVerificables/introduccion.md">}})
+
+{{<salto>}}
+{{<salto>}}
+
+### Referencias
+- Handbook of Applied Cryptography, Alfred J. Menezes et al. CRC Press, 1997. (disponible gratuitamente en http://www.cacr.math.uwaterloo.ca/hac/
+
+- Lecture Notes Cryptographic Protocols, Berry Schoenmakers, 2021. 
+
+- Cryptography Made Simple, Nigel P. Smart, Springer, 2016, ISBN 978-3-319-21935-6.

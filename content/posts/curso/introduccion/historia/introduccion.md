@@ -11,6 +11,8 @@ draft: false
 5. PoS es adoptado por nuevas Blockchains Cardano, Solana, Polkadot, Algorand
 6. DApps. Se crean aplicaciones usando contratos inteligentes 
 
+{{<salto>}}
+
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/introduccion/unidadUno.md">}} Menu de la unidad
 
 {{<myShortcode_button class=myButton relref="/posts/curso/introduccion/historia/video.md">}} Siguiente
