@@ -4,7 +4,7 @@ date: 2023-04-14T18:03:32-06:00
 draft: false
 ---
 
-![Funcionamiento](/posts/curso/img/funcionamiento1.png#center)
+![Imagen funcionamiento basico](/posts/img/unidad1/funcionamiento_basico.webp#center)
 
 {{<salto>}}
 

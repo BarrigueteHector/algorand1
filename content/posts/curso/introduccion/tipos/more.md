@@ -4,7 +4,7 @@ date: 2023-04-14T18:03:20-06:00
 draft: false
 ---
 
-![Tipos](/posts/curso/img/tipos1.png#center)
+![Imagen tipos](/posts/img/unidad1/tipos.webp#center)
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/introduccion/tipos/video.md">}} Anterior
 

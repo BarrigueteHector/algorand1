@@ -30,7 +30,7 @@ draft: false
 
 **Propiedades**
 
-![Imagen propiedades](/posts/curso/img/unidad1/propiedades.webp)
+![Imagen propiedades](/posts/img/unidad1/propiedades.webp)
 
 {{<salto>}}
 

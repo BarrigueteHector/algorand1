@@ -29,6 +29,8 @@ En criptografía, las funciones hash se utilizan para:
 - Proporcionar integridad de los datos transmitidos
 - Proporcionar autenticación del mensaje
 
+**Definición**
+
 Por una función hash generalmente nos referimos a una función _H_ que asigna entradas en un conjunto grande _M_ a salidas cortas en _T_.
 
 Los elementos en _T_ a menudo se llaman resúmenes de mensaje o simplemente resúmenes.
@@ -65,7 +67,7 @@ Un buen algoritmo hash debe:
 - Debe ser imposible producir un hash específico.
 - Debe ser imposible encontrar dos mensajes diferentes que produzcan el mismo resultado de hash.
 
-![Imagen hashing messages](/posts/curso/img/fundamentos_funcionesHash/hashing_messages.png#center)
+![Imagen hashing messages](/posts/img/unidad2/hashing_messages.webp#center)
 
 {{<salto>}}
 
@@ -120,19 +122,19 @@ No existe una función hash perfecta, pero al menos se deben cumplir las siguien
 
 **Algoritmo de ataque de cumpleaños**
 
-![Algooritmo de ataque de cumpleaños](/posts/curso/img/fundamentos_funcionesHash/algorithm_birthday_attack.png)
+![Imagen Algorithm birthday attack](/posts/img/unidad2/algorithm_birthday_attack.webp)
 
 {{<salto>}}
 
 **Ejemplos**
 
-![Ejemplos](/posts/curso/img/fundamentos_funcionesHash/examples.png)
+![Imagen examples](/posts/img/unidad2/examples.webp)
 
 {{<salto>}}
 
 **SHA256**
 
-![SHA256](/posts/curso/img/fundamentos_funcionesHash/sha256.png)
+![Imagen SHA256](/posts/img/unidad2/sha256.webp)
 
 {{<salto>}}
 
@@ -140,7 +142,7 @@ No existe una función hash perfecta, pero al menos se deben cumplir las siguien
 
 Es el miembro más reciente de la familia de estándares Secure Hash Algorithm, lanzado por NIST el 5 de agosto de 2015. Aunque forma parte de la misma serie de estándares, SHA-3 es internamente diferente de la estructura similar a MD5 de SHA-1 y SHA-2. SHA-3 es un subconjunto de la amplia familia de primitivas criptográficas Keccak.
 
-![SHA3](/posts/curso/img/fundamentos_funcionesHash/sha3.png)
+![Imagen SHA3](/posts/img/unidad2/sha3.webp)
 
 {{<salto>}}
 
@@ -152,7 +154,7 @@ Para SHA3-224, SHA3-256, SHA3-384 y SHA3-512 no se necesita realizar permutacion
 
 **Nist instances**
 
-![Nist instances](/posts/curso/img/fundamentos_funcionesHash/nist_instances.png)
+![Imagen nist instances](/posts/img/unidad2/nist_instances.webp)
 
 {{<salto>}}
 
@@ -160,7 +162,7 @@ Para SHA3-224, SHA3-256, SHA3-384 y SHA3-512 no se necesita realizar permutacion
 
 PBKDF1 y PBKDF2 (Función de Derivación de Clave Basada en Contraseña 1 y 2) son funciones de derivación de clave con un costo computacional variable, utilizadas para reducir la vulnerabilidad a ataques de fuerza bruta.
 
-![Derivación con contraseña](/posts/curso/img/fundamentos_funcionesHash/password.png)
+![Imagen password](/posts/img/unidad2/password.webp)
 
 {{<salto>}}
 

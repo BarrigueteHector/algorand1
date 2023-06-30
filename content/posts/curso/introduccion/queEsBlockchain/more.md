@@ -11,12 +11,12 @@ draft: false
 - Redundancia
 - Anonimato
 
-![Imagen 1](/posts/curso/img/queEs1.png#center)
+![Imagen que_es_uno](/posts/img/unidad1/que_es_uno.webp#center)
 {{<salto>}}
 
 - Autenticación
+![Imagen que_es_dos](/posts/img/unidad1/que_es_dos.webp#center)
 
-![Imagen 2](/posts/curso/img/queEs2.png#center)
 {{<salto>}}
 
 
