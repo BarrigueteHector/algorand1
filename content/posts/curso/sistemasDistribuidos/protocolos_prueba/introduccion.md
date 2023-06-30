@@ -1,16 +1,144 @@
 ---
-title: "Protocolos de consenso: Protocolos de consneso por prueba (Proof of Work, Proof of Stake y PPoS)"
+title: "Protocolos de consenso: Protocolos de consenso por prueba (Proof of Work, Proof of Stake y PPoS)"
 date: 2023-04-16T20:32:20-06:00
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
+**Proof of Work (PoW)**
 
-Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
+- Nodos ganadores para demostrar que el trabajo realizado y enviado califica para recibir el derecho de agregar nuevas transacciones al blockchain.
+- Los nodos compiten utilizando su poder de procesamiento.
+- Bitcoin, Litecoin, Ethereum, Zcash y bitcoin SV.
 
-Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla ligula eleifend. Mauris vehicula interdum eros sit amet molestie. Vestibulum sed ornare quam. Mauris nisi tortor, accumsan in dui dignissim, lacinia ullamcorper justo. Sed a posuere dui. Sed cursus scelerisque est ut dapibus. Vestibulum finibus vitae tellus sit amet commodo. Vestibulum in felis commodo, eleifend risus a, bibendum leo. Integer eget justo at felis eleifend aliquam id nec orci. Nam tristique consequat magna id suscipit. Phasellus ex magna, volutpat vitae lacus tincidunt, feugiat euismod ex. Aenean efficitur, orci vel scelerisque fermentum, nisl nisi cursus neque, tempor congue felis odio sit amet erat. In sem urna, luctus vulputate pretium et, malesuada eget sem. Donec blandit ornare lectus, sit amet rutrum nulla bibendum non. Praesent consequat vel leo vel pulvinar.
+![Imagen PoW](/posts/img/unidad3/pow.webp)
 
-Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Ventajas
+
+- El algoritmo más utilizado
+- Problema difícil de resolver
+- Fácil de validar
+
+Deventajas
+
+- Consumo de electricidad
+    - Lleva a la centralización
+- Menos seguro para redes pequeñas
+- Ataques
+    - Ataques del 51%
+    - Ataques de minería egoísta
+    - Ataques de eclipse: Monacoin, Bitcoin gold, Zenchash
+
+{{<salto>}}
+
+**Proof of stake (PoS)**
+
+- Participación: monedas propiedad de un participante que pueden ser invertidas.
+- Un forjador gana si apuesta más que sus competidores. La tarifa de transacción es la recompensa.
+- Proceso de selección seudorandom que combina varios factores: selección de bloque aleatoria y selección de antigüedad de la moneda.
+- Peercoin, Ethereum 2.0, Nxt, Algorand, Polkadot, Solana.
+
+![Imagen PoS](/posts/img/unidad3/pos.webp)
+
+Ventajas
+
+- Reducción del consumo de electricidad
+- Facilitar el proceso de participación (staking)
+- Amigable con el medio ambiente
+- Descentralización
+
+Desventajas
+
+- Influencia por parte de usuarios que poseen grandes cantidades de monedas
+- Sostenibilidad a largo plazo
+- No se puede elegir una billetera en frío (cold wallet)
+- Ataques
+    - Ataques del 51%
+    - Ataques de nada en juego (nothing at stake)
+    - Ataques de molienda (grinding)
+    - Ataques de largo alcance (long range attacks)
+
+{{<salto>}}
+
+**Delegated Proof of Stake (DPoS)**
+
+- Es una variante de PoS (basada en comités) más escalable que reduce el número de validadores.
+- Para que un productor de bloques se convierta en testigo, debe ser votado por los titulares de tokens.
+- El peso de los votos se basa en la participación (stake).
+- BitShares, Steemit, EOSIO, Cosmos, Lisk.
+
+![Imagen DPoS](/posts/img/unidad3/dpos.webp)
+
+Ventajas
+
+- Todos ganan
+- Eliminar al delegado ofensivo
+- No se necesita un alto poder de procesamiento: más escalable y amigable con el medio ambiente
+- Democracia digital
+
+Desventajas
+
+- Toma de decisiones en un grupo pequeño
+- Grupos de testigos coluden y gobiernan la red
+- Ataques
+    - Explotar una baja participación de votantes
+    - Ataque de soborno
+    - Productores de bloques coluden
+    - Ataque de denegación de servicio (DDoS)
+
+**Proof of Elapsed Time (PoET)**
+
+- Simula el tiempo que se consumiría en la minería de PoW.
+- A cada nodo de la red se le asigna un objeto de temporizador aleatorio para esperar antes de anunciar su bloque.
+- Para asegurar que el tiempo local realmente transcurra, se lleva a cabo en un entorno de ejecución confiable (TEE), que es un área de memoria aislada que brinda integridad y confidencialidad al programa que se ejecuta en su interior.
+- Hyperledger Sawtooth.
+
+![Imagen PoET](/posts/img/unidad3/poet.webp)
+
+Ventajas
+
+- Más eficiente
+- Más escalable
+- Más descentralizado
+    - Es muy difícil que el mismo nodo se convierta en el líder una y otra vez.
+
+Desventajas
+
+- Dependiente del hardware
+- Al ser un producto de Intel, el modelo de consenso depende de una organización de terceros.
+- Ataques
+    - Ataque Sybil
+
+{{<salto>}}
+
+**Proof of Authority (PoA)**
+
+- Utiliza la reputación de los nodos para seleccionar validadores de bloques.
+- Los moderadores son responsables de verificar transacciones y bloques.
+- Los individuos obtienen el reconocimiento adecuado para convertirse en validadores, por lo que hay un incentivo para mantener esa posición.
+- Aura, Clique.
+
+![Imagen PoA](/posts/img/unidad3/poa.webp)
+
+Ventajas
+
+- Más eficiente
+- Más escalable
+- El tiempo de generación de bloques se puede predecir
+
+Desventajsa
+
+- Menos descentralización, alta capacidad y escalabilidad
+- Las especificaciones de los validadores son accesibles para cualquiera
+- La amenaza de dañar la reputación no garantiza evitar tratar con actores maliciosos
+- Ataques
+    - Ataque del 51%
+    - Ataque de denegación de servicio (DDoS)
+
+![Imagen PoA tabla](/posts/img/unidad3/poa_table.webp)
+
+![Imagen PoA tabla dos](/posts/img/unidad3/poa_tableDos.webp)
+
+![Imagen PoA tabla tres](/posts/img/unidad3/poa_tableTres.webp)
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/sistemasDistribuidos/unidadTres.md">}} Menu de la unidad
 

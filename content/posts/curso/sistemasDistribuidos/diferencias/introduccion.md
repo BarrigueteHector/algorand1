@@ -4,13 +4,47 @@ date: 2023-04-16T20:28:46-06:00
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
+**Sistema descentralizado**
 
-Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
+- No existe un único nodo central, sino que tiene un centro colectivo de diversos puertos de conexión.
+- Todos los nodos del sistema se encuentran conectados entre sí, sin que tengan que pasar por algún punto central.
+- Se rige por el principio de adhesión o participación.
+- No existe un nodo único que tome decisiones, cada nodo toma su propia. decisión
 
-Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla ligula eleifend. Mauris vehicula interdum eros sit amet molestie. Vestibulum sed ornare quam. Mauris nisi tortor, accumsan in dui dignissim, lacinia ullamcorper justo. Sed a posuere dui. Sed cursus scelerisque est ut dapibus. Vestibulum finibus vitae tellus sit amet commodo. Vestibulum in felis commodo, eleifend risus a, bibendum leo. Integer eget justo at felis eleifend aliquam id nec orci. Nam tristique consequat magna id suscipit. Phasellus ex magna, volutpat vitae lacus tincidunt, feugiat euismod ex. Aenean efficitur, orci vel scelerisque fermentum, nisl nisi cursus neque, tempor congue felis odio sit amet erat. In sem urna, luctus vulputate pretium et, malesuada eget sem. Donec blandit ornare lectus, sit amet rutrum nulla bibendum non. Praesent consequat vel leo vel pulvinar.
+**Sistema distribuido**
 
-Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+- Posee un centro individual y colectivo ausente.
+- Ningún nodo posee el poder de filtrar la información que se distribuye en la red.
+- Si se cayera algún nodo no desconectará a ningún otro.
+- La red se rige por el principio de la interacción, y cada nodo es independiente.
+- Todos los equipos están conectados entre sí mediante un protocolo de comunicaciones estándar y trabajan como una única súper computadora.
+
+{{<salto>}}
+
+## Bases de datos distribuidas punto a punto (BDD)
+
+Una BDD es una colección de múltiples bases de datos interconectadas que se extienden físicamente en varias ubicaciones y se comunican a través de una red informática.
+
+Una base de datos punto a punto utiliza una red de recursos de varios individuos de manera colectiva para difundir datos e información entre ellos.
+
+Los participantes comparten los recursos (capacidad de procesamiento, el ancho de banda, espacio de almacenamiento) para aumentar la capacidad de la red colectiva.
+
+La potencia de cálculo se reparte entre una variedad de recursos. Al descentralizar la capacidad, se pueden añadir más clientes al sistema de lo que sería posible de otro modo. La transferencia de datos no se ralentiza con un mayor volumen de usuarios como ocurriría con una red centralizada.
+
+Ejemplos: Napster, FastTrack, Gnutella, BitTorrent and LimeWire.
+
+**Ventajas**
+
+- Fiabilidad
+- Seguridad
+- Acceso Local
+- Escalabilidad
+- Desempeño
+- Velocidad y eficiencia de los recursos
+- Distribución del trabajo
+- Reducción en el sobreflujo de mensajes dentro de la red
+
+
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/sistemasDistribuidos/unidadTres.md">}} Menu de la unidad
 

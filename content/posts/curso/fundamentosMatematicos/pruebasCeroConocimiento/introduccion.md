@@ -200,19 +200,7 @@ En 2019, Firo implementó el protocolo Sigma, que es una mejora del protocolo Ze
 
 ![Imagen zero knowledge applications](/posts/img/unidad2/zero_knowledge_applications.webp)
 
-
-
-
 {{<salto>}}
-{{<salto>}}
-{{<salto>}}
-{{<salto>}}
-{{<salto>}}
-{{<salto>}}
-{{<salto>}}
-{{<salto>}}
-
-
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/fundamentosMatematicos/unidadDos.md">}} Menu de la unidad
 
