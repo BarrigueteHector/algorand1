@@ -4,13 +4,113 @@ date: 2023-04-16T22:40:58-06:00
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et quam sagittis, suscipit nibh non, aliquam nunc. Phasellus auctor ex massa, eget aliquam eros vulputate ac. Etiam vel metus ut purus pharetra rhoncus at at lacus. Nunc eget condimentum lectus. Ut urna magna, finibus nec nibh eu, gravida volutpat eros. In lacinia eget urna vitae ornare. Donec sollicitudin odio at tellus efficitur ultrices. Pellentesque tellus nibh, suscipit sit amet dictum vitae, lacinia id ligula. Praesent arcu erat, dictum ac elementum hendrerit, commodo eu purus. Maecenas hendrerit cursus arcu ut tempor. Donec fringilla urna id neque vulputate iaculis. Etiam posuere est non erat varius, eget pharetra odio luctus.
+**Efectivo electrónico anónimo de Chaum**
 
-Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
+- Anónimo
+- Seguro (sin gasto doble)
+- Solo transferencia (sin creación/almacenameinto)
 
-Cras vel laoreet velit. Vivamus ultrices risus ut eros placerat, non fringilla ligula eleifend. Mauris vehicula interdum eros sit amet molestie. Vestibulum sed ornare quam. Mauris nisi tortor, accumsan in dui dignissim, lacinia ullamcorper justo. Sed a posuere dui. Sed cursus scelerisque est ut dapibus. Vestibulum finibus vitae tellus sit amet commodo. Vestibulum in felis commodo, eleifend risus a, bibendum leo. Integer eget justo at felis eleifend aliquam id nec orci. Nam tristique consequat magna id suscipit. Phasellus ex magna, volutpat vitae lacus tincidunt, feugiat euismod ex. Aenean efficitur, orci vel scelerisque fermentum, nisl nisi cursus neque, tempor congue felis odio sit amet erat. In sem urna, luctus vulputate pretium et, malesuada eget sem. Donec blandit ornare lectus, sit amet rutrum nulla bibendum non. Praesent consequat vel leo vel pulvinar.
+{{<salto>}}
 
-Curabitur et metus vehicula, faucibus diam ac, venenatis augue. Etiam ut leo convallis, mollis eros et, tempus mauris. Fusce accumsan lorem mi, hendrerit aliquet nunc auctor tristique. In hac habitasse platea dictumst. Ut ut egestas massa. Etiam finibus pellentesque libero ut cursus. Pellentesque a malesuada lorem. Suspendisse tincidunt mi sit amet dolor tincidunt, ac vulputate metus volutpat. Nullam auctor, enim quis blandit condimentum, est nibh tempor ex, ut pretium sem nunc in purus. Curabitur hendrerit rhoncus tellus vestibulum tempus. Fusce tristique purus in lorem imperdiet varius. Sed imperdiet iaculis nisl in bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+**La llegada de bitcoin**
+
+- 2009: Bitcoin anunciado por Satoshi Nakamoto
+    - Pseudónimo de una persona o grupo de personas
+- 2009-2011: un comienzo lento...
+- 2011-2013: Silk Road y Dread Pirate Roberts
+- Fin de 2013: el precio de Bitcoin se dispara
+    - y el mundo se da cuenta
+
+{{<salto>}}
+
+**Theory Coin (TC): cómo crear dinero**
+
+- Todos intentan resolver un acertijo
+- El primero en resolver el acertijo obtiene 1 TC
+- La solución del acertijo _i_ define el acertijo _i+1_
+
+![Imagen how to create money](/posts/img/unidad5/how_to_create_money.webp)
+
+Theory coin: cómo crear dinero (convirtiendo monedas en personas)
+
+![Imagen ppl](/posts/img/unidad5/ppl.webp)
+
+![Imagen how to create money 2](/posts/img/unidad5/how_to_create_money2.webp)
+
+Resuelve el siguiente acertijo para obtener una moneda
+- Para "resolver" el acertijo _i_, encuentra _x{{<subindice "i">}}_ tal que _H(x{{<subindice "i-1">}} , x{{<subindice "i">}}) = 0{{<exponente "d">}}_
+- La cadena más larga define el "siguiente acertijo"
+- El nombre en el bloque _x{{<subindice "i">}}_ "recibe" la moneda _i_.
+
+{{<salto>}}
+
+**Theory coin: cómo transferir dinero**
+
+![Imagen how to transfer money](/posts/img/unidad5/how_to_transfer_money.webp)
+
+![Imagen how to transfer money 2](/posts/img/unidad5/how_to_transfer_money2.webp)
+
+![Imagen how to transfer money3](/posts/img/unidad5/how_to_transfer_money3.webp)
+
+{{<salto>}}
+
+**Thoery coin: cómo almacenar el dinero**
+
+Idea principal: registrar transferencias en la cadena de bloques
+
+![Imagen how to store money](/posts/img/unidad5/how_to_store_money.webp)
+
+![Imagen how to store money 2](/posts/img/unidad5/how_to_store_money2.webp)
+
+{{<salto>}}
+
+**¿Anonimato?**
+
+- Problema:
+    Todas las transacciones realizadas se registran para siempre
+- ¿Solución?
+    Utilizar una identidad nueva para cada transacción
+- Pero:
+    Las heurísticas permiten agrupar identidades
+- Alternativas anónimas:
+    Zerocoin, Zerocash...
+
+{{<salto>}}
+
+**Ataques**
+
+Ataque de maleabilidad
+
+https://medium.com/@herman_10687/malleability-attack-why-it-matters-7b5f59fb99a4
+
+Rompe el anonimato (identifica a los usuarios)
+
+{{<salto>}}
+
+**¿Usuarios? (y sus dispositivos)**
+
+Propiedad desafortunada de DSA
+
+![Imagen user and devices](/posts/img/unidad5/user_and_devices.webp)
+
+Esta dirección
+
+_1HKywxiL4JziqXrzLKhmB6a74ma6kxbSDj_
+
+probablemente robó ~250000kr de esta manera
+
+{{<salto>}}
+
+**Piscinas de minería**
+
+- Resolver acertijos (minería) es difícil.
+    - Los mineros se unen a grupos y comparten el trabajo y la recompensa.
+
+- ¿Cómo dividir el trabajo de manera óptima?
+
+- ¿Diseño de mecanismos?
+    - ¿Minero racional?
+    - ¿Cómo asignar la recompensa?
 
 {{<myShortcode_button class=myButtonTwo relref="/posts/curso/tiposBlockchain/unidadCinco.md">}} Menu de la unidad
 

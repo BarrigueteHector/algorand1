@@ -4,10 +4,6 @@ date: 2023-04-16T18:55:17-06:00
 draft: false
 ---
 
-- **Hashing messages**
-
-![Imagen hashing messages](/posts/curso/img/fundamentos_funcionesHash/hashing_messages.png#center)
-
 Ut quis massa enim. Nulla facilisi. Vivamus et ex tempor, elementum velit a, accumsan ex. Suspendisse potenti. Pellentesque sodales imperdiet ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis pulvinar id tellus eget scelerisque. Suspendisse potenti. Donec sit amet blandit mi, id pretium dui. Cras purus tortor, consequat quis lacinia sed, pharetra at tortor. Morbi vel gravida urna, ac scelerisque ex. Proin orci magna, blandit sit amet ligula non, volutpat viverra libero. Cras sollicitudin nibh ut velit mollis condimentum. Curabitur ut suscipit mi. Nulla placerat vel magna efficitur malesuada.
 
 ![Imagen random](/posts/curso/img/imagen2.jpg#center)
