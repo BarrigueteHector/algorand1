@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "EdmpLGERRvQ">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad2/secretosCompartidosVerificables/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad2/secretosCompartidosVerificables/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad2/secretosCompartidosVerificables/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad2/secretosCompartidosVerificables/more.md">}} Siguiente

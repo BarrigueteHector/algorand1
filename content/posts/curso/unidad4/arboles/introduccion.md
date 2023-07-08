@@ -96,6 +96,6 @@ Un ejemplo es un esquema basado en un árbol 2-3 y otro esquema se basa en lista
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad4/arboles/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad4/arboles/video.md">}} Siguiente

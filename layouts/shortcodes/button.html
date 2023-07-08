@@ -1,12 +1,14 @@
-{{ $ref := .Get "href" }} 
-{{ $target := "" }}
-
-{{ with $ref }}
-  {{ $target = "_blank" }}
-{{ end }}
+{{ $class := .Get "class" }}
+{{ $ref := .Get "href"}}
 
 {{ with .Get "relref" }}
   {{ $ref = relref $ . }}
 {{ end }}
 
-<a {{ with $ref }}href="{{.}}" {{ end }} {{ with $target }} target="{{.}}"{{ if eq $target "_blank" }} rel="noreferrer"{{ end }}{{ end }} class="boton-enlaceUno markdown-btn{{ with .Get "class" }} {{ . }}{{ end }}">{{- .Inner | safeHTML -}} </a> 
+<button class="{{ $class }}" onclick="redireccion('{{ $ref }}')"> {{ .Inner }} </button>
+
+<script>
+  function redireccion(ref) {
+    window.location.href = ref;
+  }
+</script>

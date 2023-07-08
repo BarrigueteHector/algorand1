@@ -56,6 +56,6 @@ Peggy (el demostrador de la afirmación) y Victor (el verificador de la afirmaci
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad2/pruebasCeroConocimiento/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad2/pruebasCeroConocimiento/video.md">}} Siguiente

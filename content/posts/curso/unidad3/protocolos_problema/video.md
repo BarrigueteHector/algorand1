@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "1xcSDYy3Dl4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad3/protocolos_problema/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad3/protocolos_problema/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad3/protocolos_problema/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad3/protocolos_problema/more.md">}} Siguiente

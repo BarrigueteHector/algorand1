@@ -352,6 +352,6 @@ Truffle
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad5/unidadCinco.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad5/unidadCinco.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad5/ethereumYContratos/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad5/ethereumYContratos/video.md">}} Siguiente

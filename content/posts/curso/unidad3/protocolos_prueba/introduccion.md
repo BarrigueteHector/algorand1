@@ -140,6 +140,8 @@ Desventajsa
 
 ![Imagen PoA tabla tres](/posts/img/unidad3/poa_tableTres.webp)
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
+{{<salto>}}
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad3/protocolos_prueba/video.md">}} Siguiente
+{{<button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
+
+{{<button class=myButton relref="/posts/curso/unidad3/protocolos_prueba/video.md">}} Siguiente

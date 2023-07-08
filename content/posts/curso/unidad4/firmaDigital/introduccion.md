@@ -252,6 +252,6 @@ Verificación de firma ECDSA. Para verificar la firma de _A (r, s)_ en _m, B_ de
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad4/firmaDigital/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad4/firmaDigital/video.md">}} Siguiente

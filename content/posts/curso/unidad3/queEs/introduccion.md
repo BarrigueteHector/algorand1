@@ -109,8 +109,6 @@ En los sistemas punto a punto (peer to peer, en inglés o P2P) los servidores de
 
 {{<salto>}}
 
+{{<button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
 
-
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
-
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad3/queEs/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad3/queEs/video.md">}} Siguiente

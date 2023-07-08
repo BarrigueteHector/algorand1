@@ -60,6 +60,6 @@ Compartir la frase de contraseña utilizada para recrear un secreto maestro, que
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad2/secretosCompartidosVerificables/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad2/secretosCompartidosVerificables/video.md">}} Siguiente

@@ -34,6 +34,6 @@ draft: false
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad1/unidadUno.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad1/unidadUno.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad1/elementosYEstructura/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad1/elementosYEstructura/video.md">}} Siguiente

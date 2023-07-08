@@ -18,6 +18,6 @@ draft: false
     - Función hash
     - Árbol de Merkle
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad1/funcionamiento/video.md">}} Anterior
+{{<button class=myButtonTwo relref="/posts/curso/unidad1/funcionamiento/video.md">}} Anterior 
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad2/unidadDos.md">}} Siguiente unidad
+{{<button class=myButton relref="/posts/curso/unidad2/unidadDos.md">}} Siguiente unidad

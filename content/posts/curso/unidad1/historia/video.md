@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "OblL026SvD4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad1/historia/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad1/historia/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad1/historia/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad1/historia/more.md">}} Siguiente

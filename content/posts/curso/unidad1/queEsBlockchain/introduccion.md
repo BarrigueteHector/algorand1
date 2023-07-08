@@ -20,6 +20,6 @@ Blockchain es una cadena de registros distribuidos y descentralizados unidos uno
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo id=botonR relref="/posts/curso/unidad1/unidadUno.md">}} Menu de la unidad
+{{<button class=myButtonTwo id=botonR relref="/posts/curso/unidad1/unidadUno.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton id=botonS variable=unoVar relref="/posts/curso/unidad1/queEsBlockchain/video.md">}} Siguiente
+{{<button class=myButton id=botonS variable=unoVar relref="/posts/curso/unidad1/queEsBlockchain/video.md">}} Siguiente

@@ -44,8 +44,8 @@ Ejemplos: Napster, FastTrack, Gnutella, BitTorrent and LimeWire.
 - Distribución del trabajo
 - Reducción en el sobreflujo de mensajes dentro de la red
 
+{{<salto>}}
 
+{{<button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
-
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad3/diferencias/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad3/diferencias/video.md">}} Siguiente

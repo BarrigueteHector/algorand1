@@ -115,6 +115,6 @@ Consenso por prueba
 - PoTS
 - PoR
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad3/unidadTres.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad3/protocolos_queEs/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad3/protocolos_queEs/video.md">}} Siguiente

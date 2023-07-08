@@ -148,6 +148,6 @@ En 2019, Firo implementó el protocolo Sigma, que es una mejora del protocolo Ze
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad4/unidadCuatro.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad4/protocolos/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad4/protocolos/video.md">}} Siguiente

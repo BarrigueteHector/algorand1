@@ -19,7 +19,6 @@ draft: false
 
 {{<salto>}}
 
+{{<button class=myButtonTwo relref="/posts/curso/unidad1/queEsBlockchain/video.md">}} Anterior
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad1/queEsBlockchain/video.md">}} Anterior
-
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad1/historia/introduccion.md">}} Siguiente subtema
+{{<button class=myButton relref="/posts/curso/unidad1/historia/introduccion.md">}} Siguiente subtema

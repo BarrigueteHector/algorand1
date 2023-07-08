@@ -166,6 +166,6 @@ PBKDF1 y PBKDF2 (Función de Derivación de Clave Basada en Contraseña 1 y 2) s
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad2/unidadDos.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad2/funcionesHash/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad2/funcionesHash/video.md">}} Siguiente

@@ -194,6 +194,6 @@ Otros dividen estas capas en términos de su funcionalidad y también las llaman
 
 {{<salto>}}
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad6/unidadSeis.md">}} Menu de la unidad
+{{<button class=myButtonTwo relref="/posts/curso/unidad6/unidadSeis.md">}} Menu de la unidad
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad6/trilema/video.md">}} Siguiente
+{{<button class=myButton relref="/posts/curso/unidad6/trilema/video.md">}} Siguiente

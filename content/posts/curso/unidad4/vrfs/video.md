@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "fIx6Xg0n9L4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad4/vrfs/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad4/vrfs/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad4/vrfs/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad4/vrfs/more.md">}} Siguiente

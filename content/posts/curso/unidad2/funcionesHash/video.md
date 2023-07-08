@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "RM3Lvhd899I">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad2/funcionesHash/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad2/funcionesHash/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad2/funcionesHash/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad2/funcionesHash/more.md">}} Siguiente

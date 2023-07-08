@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "wL8DVHuWI7Y">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad2/pruebasCeroConocimiento/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad2/pruebasCeroConocimiento/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad2/pruebasCeroConocimiento/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad2/pruebasCeroConocimiento/more.md">}} Siguiente

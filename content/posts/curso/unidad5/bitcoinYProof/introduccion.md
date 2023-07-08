@@ -112,6 +112,8 @@ probablemente robó ~250000kr de esta manera
     - ¿Minero racional?
     - ¿Cómo asignar la recompensa?
 
-{{<myShortcode_button class=myButtonTwo relref="/posts/curso/unidad5/unidadCinco.md">}} Menu de la unidad
+{{<salto>}}
 
-{{<myShortcode_button class=myButton relref="/posts/curso/unidad5/bitcoinYProof/video.md">}} Siguiente
+{{<button class=myButtonTwo relref="/posts/curso/unidad5/unidadCinco.md">}} Menu de la unidad
+
+{{<button class=myButton relref="/posts/curso/unidad5/bitcoinYProof/video.md">}} Siguiente

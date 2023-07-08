@@ -5,6 +5,6 @@ draft: false
 ---
 {{<youtube "LQ488QrqGE4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad1/elementosYEstructura/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad1/elementosYEstructura/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad1/elementosYEstructura/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad1/elementosYEstructura/more.md">}} Siguiente

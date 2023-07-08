@@ -6,6 +6,6 @@ draft: false
 
 {{<youtube "JoZ3leKz9x4">}}
 
-{{<myShortcode_button class=myButtonVideoTwo relref="/posts/curso/unidad2/criptografiaAsimetrica/introduccion.md">}} Anterior
+{{<button class=myButtonVideoTwo relref="/posts/curso/unidad2/criptografiaAsimetrica/introduccion.md">}} Anterior
 
-{{<myShortcode_button class=myButtonVideo relref="/posts/curso/unidad2/criptografiaAsimetrica/more.md">}} Siguiente
+{{<button class=myButtonVideo relref="/posts/curso/unidad2/criptografiaAsimetrica/more.md">}} Siguiente
