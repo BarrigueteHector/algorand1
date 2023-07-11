@@ -2,7 +2,7 @@
 
 ## Funcionamiento
 
-La página fue creada con el framework [Hugo](https://gohugo.io/) en su versión `0.110.0`, también se utilizó [Chocolately](https://chocolatey.org/) en su versión `1.3.0`. El tema utilizado fue [Paper Mod](https://github.com/adityatelange/hugo-PaperMod).
+La página fue creada con el framework [Hugo](https://gohugo.io/) en su versión `0.110.0`, también se utilizó [Chocolatey](https://community.chocolatey.org/) en su versión `1.3.0`. El tema utilizado fue [Paper Mod](https://github.com/adityatelange/hugo-PaperMod).
 
 El siguiente [video](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1023s&ab_channel=EnvatoTuts%2B) resultó de gran ayuda para la instalación y creación de la página.
 
@@ -18,7 +18,7 @@ El siguiente [video](https://www.youtube.com/watch?v=hjD9jTi_DQ4&t=1023s&ab_chan
 
   - `introduccion`: explicación del subtema.
   - `video`: video del subtema.
-  - `more`: conteptos e ideas importantes, así como mapas conceptuales, infrografías, etc.
+  - `more`: conceptos e ideas importantes, así como mapas conceptuales, infografías, etc.
 
 [content/posts/img](https://github.com/BarrigueteHector/algorand1/tree/main/content/posts/img): imágenes utilizadas (todas con extensión `.webp`), solo las que se usaron como muestra del sitio son `.png`. También se divide por unidades.
 
@@ -54,7 +54,23 @@ Su invocación en el archivo `.md` es de la siguiente forma:
 <shortcode>
 ```
 
-Es posible pasarle parámetros, para ello debe especificarse al principio del `.html` y es utilizando el lenguaje `Go`.
+Es posible pasarle parámetros, para ello debe especificarse al principio del `.html` y utilizando el lenguaje `Go`.
+
+A continuación se explicarán los shortcodes que se utilizan en el proyecto:
+
+- (avance)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/avance.html]: revisa si el usuario puede acceder a una determina unidad. El usuario debió revisar la(s) unidad(es) anterior(es) para tener acceso a ella.
+
+- (botton)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/button.html]: creación de botones que redireccionan a otra página
+
+- (exponente)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/exponente.html]: permite que se puedan escribir exponentes
+
+- (red message)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/red_message.html]: escribe algo de color rojo
+
+- (salto)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/salto.html]: salto de linea 
+
+- (subindice)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/subindice.html]: permite que se puedan escribir subindices
+
+- (youtube)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/youtube.html]: permite anexar videos de YT. Aunque no es necesario crearlo ya que es predeterminado
 
 ## Notas
 
