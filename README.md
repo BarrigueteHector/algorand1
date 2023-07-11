@@ -58,19 +58,19 @@ Es posible pasarle parámetros, para ello debe especificarse al principio del `.
 
 A continuación se explicarán los shortcodes que se utilizan en el proyecto:
 
-- (avance)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/avance.html]: revisa si el usuario puede acceder a una determina unidad. El usuario debió revisar la(s) unidad(es) anterior(es) para tener acceso a ella.
+- [avance](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/avance.html): revisa si el usuario puede acceder a una determina unidad. El usuario debió revisar la(s) unidad(es) anterior(es) para tener acceso a ella.
 
-- (botton)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/button.html]: creación de botones que redireccionan a otra página
+- [botton](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/button.html): creación de botones que redireccionan a otra página
 
-- (exponente)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/exponente.html]: permite que se puedan escribir exponentes
+- [exponente](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/exponente.html): permite que se puedan escribir exponentes
 
-- (red message)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/red_message.html]: escribe algo de color rojo
+- [red message](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/red_message.html): escribe algo de color rojo
 
-- (salto)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/salto.html]: salto de linea 
+- [salto](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/salto.html): salto de linea 
 
-- (subindice)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/subindice.html]: permite que se puedan escribir subindices
+- [subindice](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/subindice.html): permite que se puedan escribir subindices
 
-- (youtube)[https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/youtube.html]: permite anexar videos de YT. Aunque no es necesario crearlo ya que es predeterminado
+- [youtube](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/youtube.html): permite anexar videos de YT. Aunque no es necesario crearlo ya que es predeterminado
 
 ## Notas
 
