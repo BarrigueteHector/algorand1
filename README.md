@@ -72,6 +72,10 @@ A continuación se explicarán los shortcodes que se utilizan en el proyecto:
 
 - [youtube](https://github.com/BarrigueteHector/algorand1/blob/main/layouts/shortcodes/youtube.html): permite anexar videos de YT. Aunque no es necesario crearlo ya que es predeterminado
 
+## URL
+
+[Demo página](https://ubiquitous-swan-93dbef.netlify.app/)
+
 ## Notas
 
 - Para cualquier modificación a un archivo `.html` o `.css` debe ser sobre alguno que se encuentre en la carpeta [assets/css/common](https://github.com/BarrigueteHector/algorand1/tree/main/assets/css/common) o [layouts](https://github.com/BarrigueteHector/algorand1/tree/main/layouts). ***Revisar el siguiente punto***
